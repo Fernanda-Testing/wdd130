@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <meta
+      name="description"
+      content='This page contain information for contact us in Rafting "Outdoors Lovers".'/>
+    <meta name="author" content="Fernanda Souza" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="contact">
+    <header class="header-grid">
+      <img src="images/rafting-logo.png" alt="Rafting Logo" width="200" />
+      <nav class="pages">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+      <p>We are just a message away from answering your questions.
+        Write to us and one of our employees will contact you immediately.</p>
+      <section>
+        <h3>Our team!</h3>
+        <div class="employees">
+        <figure>
+          <img src="images/young-with-glasses.webp" alt="Employee James - CEO"/>
+          <figcaption>James - CEO</figcaption>
+          </figure>
+          <figure>
+            <img src="images/second-woman.jpg" alt="Employee Marry - Turist guide"/>
+            <figcaption>Marry - Turist guide</figcaption>
+            </figure>
+          <figure>
+            <img src="images/young-similing.jpg" alt="Employee Elizabeth - Security Staff"/>
+            <figcaption>Elizabeth - Security Staff</figcaption>
+        </figure>
+        </div>
+      </section>
+      <section class="data">
+        <div class="contact-information">
+        <h3>Headquarter</h3>
+        <p id="Place">Montevideo, Uruguay</p>
+        <p class="contact-item"><img src="images/location.png" alt="Location"/> HQ: Av. Rondeau 1436, Montevideo 11100 Uruguay</p>
+        <p class="contact-item"><img src="images/phone.png" alt="Phone"/> Tel.: +(598) 91 752 147 / +(598) 2509 1257</p>
+        <p class="contact-item"><img src="images/letter.png" alt="Email" /> Email: msouzafaria@byupathway.edu</p>        
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209591.45544802354!2d-56.1974716!3d-34.834449150000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1739332155938!5m2!1ses!2suy" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <form>
+      <div class="content-form">
+        <h3>Send Us a Message</h3>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item one">
+                <label for="usersname">Name:</label>
+                <input type="text" id="usersname" name="usersname" placeholder="E.g.: John"><br>
+            </div>
+            <div class="form-item one">
+                <label for="useremailaddress">Email address:</label>
+                <input type="email" id="useremailaddress" name="useremailaddress" placeholder="mail@example.com"><br>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <legend>What is the purpose of your message?</legend>
+            <div class="form-item two">
+              <input type="radio" id="general" name="purpose" value=""/>
+              <label for="general">General Inquiry</label>
+              <input type="radio" id="reservation" name="purpose" value=""/>
+              <label for="reservation">Reservation Question</label>
+              <input type="radio" id="suggetion" name="purpose" value=""/>
+              <label for="suggetion">Website Suggestion</label>                 
+            </div>
+            <label class="areafortext" for="message">Write your message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="E.g.: Are there any dates available in the next month?"></textarea>
+            <div class="form-item two">
+                <label for="suscription">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="suscription" name="suscription">
+            </div>
+        </fieldset>
+        <button type="submit" value="Submit Message">Submit Message</button><br>
+      </div>
+        <img src="images/rafting-person.jpg" alt="Happy woman doing rafting"/>
+    </form>    
+    </main>
+    <footer>
+      <p>&copy;2025 - The Rafting "Outdoors Lovers" - Fernanda Souza</p>
+      <nav class="sociallinks">
+        <a href="https://app.moqups.com/8iWFuyAPpsRqoCt7wnstBDqgW5cDae6u/view/page/ad12de680">
+          <img src="images/wireframe.webp" alt="Wireframe" />
+        </a>
+        <a href="https://facebook.com">
+          <img src="images/facebook-logo.png" alt="Facebook" />
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram-logo.png" alt="Instagram" />
+        </a>
+        <a href="https://youtube.com">
+          <img src="images/youtube-logo.png" alt="Youtube" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

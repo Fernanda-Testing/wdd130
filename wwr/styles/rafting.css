@@ -169,6 +169,36 @@ h2 {
     width: 100%;
 }
 
+.employees { /*contact*/
+display: flex;
+align-items: baseline;
+justify-content: center;
+gap: 5px;
+flex-flow: row nowrap;
+width: 100%;
+}
+
+h3{
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    outline: 2px solid var(--secondary-color);
+    color: var(--accent3-color);
+    padding: 0.5rem 1.5rem;
+}
+
+.employees figure img { /*contact*/
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.employees figcaption{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 2px;
+    text-align: center;
+}
+
 .album h2 {
     color: var(--accent3-color);
     margin-bottom: 10px;
@@ -192,6 +222,7 @@ figcaption{
     box-sizing: border-box;
     margin: 0;
 }
+
 
 .album figure img {
     width: 100%; 
@@ -219,4 +250,107 @@ footer > p{
 
 footer nav.sociallinks a {
     text-decoration: none;
+}
+
+footer nav.sociallinks img {
+    height: 3rem;
+    width: 3rem;
+}
+
+button {
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 2px solid var(--accent1-color);
+    padding: 0.50rem;
+    font: .6em "Didact Gothic";
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+    background-color: var(--accent1-color);
+    width: 50%;
+    align-self: center;
+}
+
+button:hover{
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form img{
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+
+textarea{
+    width: 100%;
+    min-height: 100px;
+}
+
+input[type="text"],
+input[type="email"]
+{
+    width: 100%; 
+    max-width: 26rem; 
+    padding: 8px;
+    margin-bottom: 5px; 
+    border: 1px solid; 
+    border-radius: 5px;
+    align-items: end;
+}
+
+.contact h1 {
+ text-align: center;
+}
+
+main > p{            
+    text-align: center; 
+}
+
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-item img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--secondary-color);
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#Place {
+    color: var(--accent3-color);
+    font-weight: bold;
+    font-size: larger;
 }
