@@ -276,6 +276,7 @@ button {
     background-color: var(--accent1-color);
     width: 50%;
     align-self: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 button:hover{
@@ -511,6 +512,7 @@ align-self: center;
 margin: 0 6rem 0 6rem;
 text-decoration: none;
 text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn:hover{
@@ -532,6 +534,9 @@ color: var(--accent3-color);
     flex-direction: column;
     background-color:var(--accent2-color);
     color: var(--primary-color);
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 } 
 
 .level-begginer,    
@@ -557,6 +562,8 @@ color: var(--accent3-color);
     width: 100%; 
     height: auto;
     border: 0.3rem solid var(--primary-color); 
+    align-content: space-around;
+    padding: 0.20rem;
 }
 
 #desc-beginner,
@@ -566,7 +573,8 @@ color: var(--accent3-color);
     flex-direction: column;
     align-content: stretch;
     max-width: 25%;
-    justify-content: space-around;
+    justify-content:stretch;
+    padding: 0.5rem;
 }
 
 #itinerary-beginner,
@@ -580,13 +588,15 @@ color: var(--accent3-color);
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px 20px 2px 20px;
     font-size: 1rem;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--accent2-color); 
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
 }
 
 caption {
