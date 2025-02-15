@@ -192,7 +192,7 @@ h3{
     padding: 0.5rem 1.5rem;
 }
 
-.employees figure img { /*contact*/
+.employees figure img { 
     width: 100%; 
     height: auto;
     object-fit: cover;
@@ -529,19 +529,52 @@ color: var(--accent3-color);
 
 .levels { 
     display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 5px;
-    flex-flow:inherit;
-    width: 100%;
+    flex-direction: column;
     background-color:var(--accent2-color);
     color: var(--primary-color);
-    }
+} 
 
-.levels img{
+.level-begginer,    
+.level-intermediate,
+.level-advanced{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid var(--primary-color);
+    padding: 2rem;
+}
+
+#img-beginner,
+#img-intermediate,
+#img-advanced{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#img-beginner img,
+#img-intermediate img,
+#img-advanced img{
+    width: 100%; 
     height: auto;
-    width: 100%;
     border: 0.3rem solid var(--primary-color); 
+}
+
+#desc-beginner,
+#desc-intermediate,
+#desc-advanced{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    max-width: 25%;
+    justify-content: space-around;
+}
+
+#itinerary-beginner,
+#itinerary-intermediate,
+#itinerary-advanced{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 table {
